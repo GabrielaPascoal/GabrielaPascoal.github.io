@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Sarabun:ital,wght@0,100;1,100&display=swap');
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+    header{
+      width: 100%;
+      height: 100vh;
+      overflow: hidden;
+      position: relative;
+    }
+
+  .img-wrapper{
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      background-color: rgba(100, 98, 99, 0.137);
+
+}
+ .img-wrapper img{
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+     opacity: 0.7
+
+}
+ .menu{
+     position: absolute;
+     top: 35%;
+     left: 13%;
+     
+ }
+  .title{
+     color:rgb(255, 255, 255);
+     font-size: 3.5rem;
+     font-family: "Sarabun:ital", serif;
+     text-shadow: rgba(0, 0, 0, .4);
+     
+     
+
+ }
+  .subt{
+    color:rgb(255, 255, 255);
+    font-size: 2rem;
+    font-family: "Sarabun:ital", serif;
+    text-shadow: rgba(0, 0, 0, .4);
+    margin-bottom: 2rem;
+
+
+
+ }
+ .menu button {
+     font-family: serif;
+     font-size: 1.05rem;
+     letter-spacing: .1rem;
+     color:rgb(255, 255, 255);
+     background-color:#A020F0;
+     border: none;
+     padding-bottom: 1rem;
+     padding-top: 1rem;
+     padding-right: 2rem;
+     padding-left: 2rem ;
+     border-radius: 19px;
+ }
+
+
+
