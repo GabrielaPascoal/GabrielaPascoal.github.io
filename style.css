@@ -1,10 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Sarabun:ital,wght@0,100;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200&display=swap');
 
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css');
 
 *{
     margin: 0;
     padding: 0;
+    list-style: none;
+    text-decoration: none;
 }
 
     header{
@@ -27,32 +29,67 @@
      object-fit: cover;
      opacity: 0.7
 
+
 }
  .menu{
      position: absolute;
-     top: 35%;
+     top: 20%;
      left: 13%;
+    width: 340px;
+	height: 340px;
+	border-radius: 20px;
+	border: none;
+	margin: auto;
+	text-align:center;
+    background-color:#ffffff;
+    word-spacing: 2px;
+    line-height: 3.0rem;
+
      
  }
+ 
+
   .title{
-     color:rgb(255, 255, 255);
-     font-size: 3.5rem;
-     font-family: "Sarabun:ital", serif;
-     text-shadow: rgba(0, 0, 0, .4);
+     color:rgb(58, 49, 49);
+     font-size: 1.5rem;
+     font-family:  "roboto slab";
+     text-shadow: rgba(133, 128, 128, 0.4);
+     text-align-last: center;
      
      
 
  }
   .subt{
-    color:rgb(255, 255, 255);
-    font-size: 2rem;
-    font-family: "Sarabun:ital", serif;
-    text-shadow: rgba(0, 0, 0, .4);
+    color:rgb(133, 132, 132);
+    font-size: 1.2rem;
+    font-family: "roboto slab";
+    text-shadow: rgba(157, 153, 153, 0.4);
     margin-bottom: 2rem;
 
 
 
  }
+ .social{
+    margin-bottom: 2rem;
+    justify-content: space-evenly;
+    display: flex;
+ }
+
+.social i{
+    color:rgb(133, 132, 132);
+    font-size: 1.8rem;
+
+
+}
+.social i:hover{
+    opacity: 0.8;
+}
+   
+     
+     
+ 
+
+
  .menu button {
      font-family: serif;
      font-size: 1.05rem;
@@ -65,7 +102,12 @@
      padding-right: 2rem;
      padding-left: 2rem ;
      border-radius: 19px;
+     cursor: pointer;
  }
+ .menu button:hover {
+     opacity: 0.8;
+ }
+ 
 
 
 
